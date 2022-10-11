@@ -1,0 +1,16 @@
+# test_neg_availableTypes
+
+void main() {
+    bool[] bArrA = new bool[1];
+    bool[] bArrB = {true, false};
+    string[] sArrA = new string[1];
+    string[] sArrB = new {"A"};
+}
+
+bool[] boolArrayReturn(bool[] bArr) {
+    return bArr;
+}
+
+string[] stringArrayReturn(string[] sArr) {
+    return sArr;
+}

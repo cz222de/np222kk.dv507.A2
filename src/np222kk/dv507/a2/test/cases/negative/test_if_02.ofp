@@ -1,0 +1,6 @@
+void main() {
+    float f = 1.0;
+    if (f) {
+        print("Test");
+    }
+}

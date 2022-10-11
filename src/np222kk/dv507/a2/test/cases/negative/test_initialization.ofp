@@ -1,0 +1,7 @@
+void main() {
+    int i;
+
+    if (i > 1) {
+        int b = i;
+    }
+}

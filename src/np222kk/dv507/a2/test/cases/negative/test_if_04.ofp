@@ -1,0 +1,9 @@
+void main() {
+    if (test()) {
+        print("Test");
+    }
+}
+
+char[] test() {
+    
+}

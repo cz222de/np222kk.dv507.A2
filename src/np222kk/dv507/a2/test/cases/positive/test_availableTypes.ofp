@@ -1,0 +1,45 @@
+# test_availableTypes
+
+void main() {
+    int i = 1;
+    float f = 1.0;
+    bool b = true;
+    char c = 'C';
+    string s = "String";
+    int[] iArrA = new int[2];
+    int[] iArrB = {1,2,3};
+    float[] fArrA = new float[1];
+    float[] fArrB = {1.1,1.2,1.3};
+    char[] cArrA = new char[33];
+    char[] cArrB = {'a', 'b', 'c'};   
+}
+
+void allTypes(int i, float f, bool b, char c, string s, int[] iArr, float[] fArr, char[] cArr) {
+    # All types
+}
+
+int intMethod() {
+    return 1;
+}
+float floatMethod() {
+    return 1.2;
+}
+bool boolMethod() {
+    return true;
+}
+char charMethod() {
+    return 'C';
+}
+string stringMethod() {
+    return "string";
+}
+
+int[] intArrMethod() {
+    return new int[3];
+}
+float[] floatArrMethod() {
+    return new float[3];
+}
+char[] charArrMethod() {
+    return new char[3];
+}

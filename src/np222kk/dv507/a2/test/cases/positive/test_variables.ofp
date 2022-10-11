@@ -1,0 +1,22 @@
+# test_variables
+
+void main() {
+    int a;
+    int b = 1;
+    int c = b + 3 * 4;
+    if (true) {
+        int d;
+    }
+
+    # identifier checks
+    int TeSt = 1;
+    int tEsT = 2;
+}
+
+void Test() {
+    int test;
+}
+
+void tesT(int teSt) {
+
+}

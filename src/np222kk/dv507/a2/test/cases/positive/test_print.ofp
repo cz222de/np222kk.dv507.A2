@@ -1,0 +1,16 @@
+# test_print
+
+void main() {
+    
+    print("Hello World!");
+    println("Hello World!");
+    print(1);
+    println(1);
+    print(1.0);
+    println(1.0);
+    print('c');
+    println('c');
+    print(true);
+    println(true);
+
+}

@@ -1,0 +1,4 @@
+void main() {
+    int[] iArr = new int[1];
+    if (iArr == iArr) {  }
+}

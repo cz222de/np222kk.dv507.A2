@@ -1,0 +1,8 @@
+# test_neg_print
+
+void main() {
+    print("Hello", "World");
+    println("Hello", "World");
+    print();
+    println();
+}

@@ -1,0 +1,10 @@
+# test_neg_introduction
+
+string x = 1;
+
+void main() {
+    print("Hello World!");
+
+}
+
+int a;

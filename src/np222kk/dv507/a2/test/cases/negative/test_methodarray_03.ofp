@@ -1,0 +1,8 @@
+void main() {
+
+    char c = method()[0];
+}
+
+char method() {
+    return 'c';
+}

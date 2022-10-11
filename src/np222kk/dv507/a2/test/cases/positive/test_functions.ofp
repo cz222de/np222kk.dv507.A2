@@ -1,0 +1,31 @@
+# test_functions
+
+void main() {
+    int x;
+}
+
+void funA() {
+    fun();
+    int[] iArr = {1,2,3};
+    int i = fun()[0];
+    int j = fun().length;
+    int k = funD(iArr[1]).length;
+    int l = funD(fun()[i]).length;
+}
+
+int[] fun() {
+    return funC("1","2","3");
+}
+
+int[] funD(int i) {
+
+}
+
+void funB(int[] intArray) {
+    
+}
+
+int[] funC(string a, string b, string c) {
+    int[] x = {a.length, b.length, c.length, 1 + 2};
+    return x;
+}

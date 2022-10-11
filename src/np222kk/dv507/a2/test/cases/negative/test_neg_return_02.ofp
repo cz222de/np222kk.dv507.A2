@@ -1,0 +1,8 @@
+void main() {
+    
+}
+
+# wrong return type
+int testFun() {
+    return 1.0;
+}

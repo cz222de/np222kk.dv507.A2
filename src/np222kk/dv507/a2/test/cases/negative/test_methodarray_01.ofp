@@ -1,0 +1,8 @@
+void main() {
+
+    int i = integer()[0];
+}
+
+int integer() {
+    return 1;
+}

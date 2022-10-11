@@ -1,0 +1,24 @@
+# test_literals
+
+void main () {
+    int iA = 0;
+    int iB = 100;
+    int iC = -10;
+    
+    float fA = 1.1111;
+    float fB = 0.000;
+    float fC = -0.000010;
+    float fD = -10.0;
+    
+    bool bA = true;
+    bool bB = false;
+
+    char cA = 'c';
+       
+    string sA = "string!., ?=:()";
+    string sSW = " ";
+
+    int[] iArrA = {1,2,3};
+    char[] cArrA = {'a','b','c', '!', '.', ',', ' ', '?', '=', ':', '(', ')'};
+    float[] fArrA = {0.0,0.1,0.2};
+}

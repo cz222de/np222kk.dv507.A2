@@ -1,0 +1,14 @@
+# test_otherDetails
+
+void main() {       # Comment
+    # I am a comment
+    # if (a < b) {
+    #   a = b;
+    # }   
+
+    if (true) { # Comment 
+
+    }
+
+    int i = 1; # Comment    
+}

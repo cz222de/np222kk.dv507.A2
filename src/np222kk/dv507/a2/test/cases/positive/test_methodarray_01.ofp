@@ -1,0 +1,26 @@
+void main() {
+
+    int i = integer()[0];
+    float f = floatNumber()[0];
+    char c = charArr()[0];
+    c = stringMethod()[0];
+}
+
+int[] integer() {
+    int[] i = new int[1];
+    return i;
+}
+
+float[] floatNumber() {
+    float[] i = new float[1];
+    return i;
+}
+
+char[] charArr() {
+    char[] i = new char[1];
+    return i;
+}
+
+string stringMethod() {
+    return "Test";
+}

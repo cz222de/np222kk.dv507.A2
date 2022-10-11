@@ -1,0 +1,8 @@
+void main() {
+
+    float f = method()[0];
+}
+
+float method() {
+    return 1.0;
+}

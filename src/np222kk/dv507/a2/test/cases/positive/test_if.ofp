@@ -1,0 +1,21 @@
+void main() {
+    if (1 == 1) {
+        print("IF");
+    } else if ('C' == 'C') {
+        print("ELSE IF 1");
+    } else if (1.0 == 2.0) {
+        print("ELSE IF 2");
+    } else if (test()) {
+        print ("method call works");
+    } else {
+        print("ELSE");
+    }
+}
+
+bool test() {
+    if (1+1==2)
+        return true;
+    else 
+        return false;
+}
+

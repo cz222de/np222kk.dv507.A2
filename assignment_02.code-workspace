@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"antlr4.generation": {
+			"mode": "external",
+			"language": "Java",
+			"listeners": true,
+			"visitors": true
+		},
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.referencedLibraries": [
+			"C:/jars/antlr-4.8-complete.jar"
+		]
+	}
+}

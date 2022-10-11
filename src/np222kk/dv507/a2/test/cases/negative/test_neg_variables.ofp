@@ -1,0 +1,13 @@
+# test_neg_variables
+
+void main() {
+    integer a;
+    intb;
+    int 1;
+
+    # identifier checks
+    int 1abc;
+    int A1C;
+    int A_C;
+    int A BC;
+}

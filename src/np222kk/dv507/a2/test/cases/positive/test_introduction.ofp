@@ -1,0 +1,12 @@
+# test_introduction
+
+void main() {
+    # I am the main method
+    int x = 1;
+}
+
+void subMethod(int i) {
+    # I am a submethod
+    string x = "I am a submethod";
+    println(x);
+}

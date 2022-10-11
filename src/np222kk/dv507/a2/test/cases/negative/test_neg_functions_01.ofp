@@ -1,0 +1,24 @@
+# test_neg_functions
+
+int subA (int x,) {
+    return x;
+}
+
+void sub_A1 () {
+    sub().sub();
+    x.sub();
+}
+
+void test Method () {
+    
+}
+
+void main() {
+    int x(int i) {
+        string x = "Method here not allowed"
+    }
+    fun(fun()[i].length).length;
+}
+
+void subA ()
+    print("Hello World!");

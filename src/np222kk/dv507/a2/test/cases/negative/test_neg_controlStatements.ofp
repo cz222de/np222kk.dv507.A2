@@ -1,0 +1,10 @@
+# test_neg_controlStatements
+
+void main() {
+    while true {
+        int a = 1;
+    }
+    int x;
+    else
+        x = 1;
+}

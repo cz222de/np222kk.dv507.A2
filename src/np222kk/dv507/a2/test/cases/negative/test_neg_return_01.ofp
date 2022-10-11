@@ -1,0 +1,8 @@
+void main() {
+    
+}
+
+# return statement not allowed here
+void testFun() {
+    return 1;
+}

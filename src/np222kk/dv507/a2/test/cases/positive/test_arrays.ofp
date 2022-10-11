@@ -1,0 +1,19 @@
+# test_arrays
+
+void main() {
+    int[] iArrA = new int[1];
+    int[] iArrB = {1,2};
+
+    iArrB[0] = 22;
+
+    int length = iArrA.length;
+    int element = iArrB[1];
+}
+
+int[] testA() {
+    return new int[3];
+}
+
+int[] testB() {
+    return {1,2,3};
+}

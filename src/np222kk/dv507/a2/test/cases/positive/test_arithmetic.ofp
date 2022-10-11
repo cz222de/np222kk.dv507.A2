@@ -1,0 +1,9 @@
+# test_arithmetic
+
+
+void main() {
+    bool b = 1*2+3*4 > 1*(2+3)*4;
+    bool bb = 6/3 < 3+4+5+6-1;
+    bool c = (1 < 2);
+    int i = 1+ -1;
+}

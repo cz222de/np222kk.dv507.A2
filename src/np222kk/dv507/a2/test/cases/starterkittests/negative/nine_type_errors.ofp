@@ -1,0 +1,87 @@
+# nine_type_errors.ofp
+# Syntactically correct, but with several type errors
+
+void main() {
+	int[] a = new int[10.1];			# type error - float in int array
+	int i = 0;
+	int n = 2; 
+	while (i < a.length) {
+		a[i] = n;
+		n = 2*n;
+		i = i + 1;
+	} 
+	
+	int[] rev = reverse(a);
+	printArray(rev);
+	
+	int[] arr = {1,2,3,4.5,6,7,8,9};	# different types float in int array
+	printArray(arr); 
+	
+	float[] f = {1.0,2.1,3.2, 4.4};
+	float max = findMax(f);
+	println(f);							# float array not printable
+	
+	string s = "All students got the highest grade A!";
+	int res = countA(s);
+	println(res);   # res = 2
+	
+	s = replace(s,'s',"S");				# "S" string identified char expected
+	println(s);     # s = "All StudentS got the higheSt grade A!"
+}
+
+int[] reverse(int[] arr) {
+	int sz = arr.length;
+	int[] toReturn = new int[sz];
+	int i = 0;
+	int n = 2; 
+	while (i < sz < n) {				# not allowed sz < n results in boolean and therefore not compareable with int
+		int n = arr[sz-i-1.0];			# float and int mixing
+		toReturn[i] = n;
+		i = i + 1;
+	} 
+	return n;							# int[] expected int identified
+}
+
+void printArray(int[] arr) {
+	int i = 0;
+	while(i<arr.length) {
+		int n = arr[i];
+		print(n);
+	}
+}
+
+float findMax(float[] f) {
+	float max = f[0];
+	int i=1;
+	while (i<f.length) {
+		float p = f[i];
+		if (p>max) {
+			max = p;
+		}
+	}
+	return max;
+}
+
+int countA(string str) {
+	int n = 0;
+	int i = 0;
+	while (i < str.length) {
+		char c = str[i];
+		if (c == 'A') 
+			n = n+1;
+		i = i+1.0;						# int and float mixing
+	}
+	return n;
+}
+
+string replace(string str, char oldChar, char newChar) {
+	int i = 0;
+	while (i < str.length) {
+		char c = str[i];
+		if (c == oldChar)
+			str[i] = newChar;			# changing string not allowed according to pdf
+		i = i+c;						# int and char mixing
+	}
+	return str;
+}
+

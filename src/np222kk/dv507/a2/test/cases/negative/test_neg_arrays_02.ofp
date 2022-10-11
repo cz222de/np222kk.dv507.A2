@@ -1,0 +1,4 @@
+void main() {
+    int iArrA = new int[1];
+    int iArrB = {1,2};
+}

@@ -1,0 +1,19 @@
+# test_neg_literals
+
+void main() {
+    int iA = -0; # possible beacause of unary minus, solve in assignment 2
+    int iB = +42;
+    int iC = 000042;
+    int iD = --1;
+
+    float fA = 01.0;
+    float fB = -0.0; # same as integer
+    float fC = +420.0;
+    float fD = .1;
+    float fE = 20.;
+
+    char cA = 'cc';
+    char cB = '';
+
+    string s = "";
+}

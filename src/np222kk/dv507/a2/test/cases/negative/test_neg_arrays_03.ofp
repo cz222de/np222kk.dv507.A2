@@ -1,0 +1,5 @@
+# test_neg_arrays
+
+void main() {
+    int[] i = {1,2.0,'c'};
+}

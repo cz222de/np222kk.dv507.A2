@@ -1,0 +1,4 @@
+void main() {
+    char[] cA = new char[10];
+    char c = cA['c'];   
+}

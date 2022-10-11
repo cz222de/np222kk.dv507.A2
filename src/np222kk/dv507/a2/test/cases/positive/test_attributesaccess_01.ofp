@@ -1,0 +1,14 @@
+void main() {
+
+    char[] cArr = new char[2];
+    int i = cArr.length;
+
+    int[] iArr = new int[2];
+    i = iArr.length;
+
+    float[] fArr = new float[2];
+    i = fArr.length;
+
+    string s = "Test";
+    i = s.length;
+}

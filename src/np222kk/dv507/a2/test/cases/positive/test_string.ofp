@@ -1,0 +1,7 @@
+# test_string
+
+void main() {
+    string s = "some string";
+    int i = s.length;
+    char c = s[i-1];
+}

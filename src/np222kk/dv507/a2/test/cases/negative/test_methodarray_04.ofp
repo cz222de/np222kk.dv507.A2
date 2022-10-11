@@ -1,0 +1,8 @@
+void main() {
+
+    bool b = method()[0];
+}
+
+bool method() {
+    return true;
+}

@@ -1,0 +1,68 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "np222kk.dv507.a2.App",
+            "projectName": "np222kk.dv507.A2_6619a9d"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "np222kk.dv507.a2.App",
+            "projectName": "np222kk.dv507.A2_c8f62142"
+        },
+        {
+            "type": "java",
+            "name": "Launch LanguageTest",
+            "request": "launch",
+            "mainClass": "np222kk.dv507.a2.test.LanguageTest",
+            "projectName": "np222kk.dv507.A2_e698d8bf",
+            "args": [
+                "${workspaceFolder}/src/np222kk/dv507/a2/test/cases/negative",
+                "true",
+                "${workspaceFolder}/src/np222kk/dv507/a2/test/cases/positive",
+                "false",
+                "${workspaceFolder}/src/np222kk/dv507/a2/test/cases/starterkittests/negative",
+                "true",
+                "${workspaceFolder}/src/np222kk/dv507/a2/test/cases/starterkittests/positive",
+                "false"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "np222kk.dv507.a2.App",
+            "projectName": "np222kk.dv507.A2_e698d8bf"
+        },
+        {
+            "type": "java",
+            "name": "Debug current OFP file",
+            "request": "launch",
+            "mainClass": "np222kk.dv507.a2.App",
+            "projectName": "np222kk.dv507.A2_e698d8bf",
+            "args": [
+                "${file}"
+            ]
+        },
+        {
+            "type": "antlr-debug",
+            "request": "launch",
+            "name": "ANTLR current grammar",
+            "grammar": "${file}",
+            "input": "${workspaceFolder}/src/np222kk/dv507/a2/test/cases/input.ofp",
+            "visualParseTree": true
+        },
+        {
+            "type": "antlr-debug",
+            "request": "launch",
+            "name": "ANTLR current ofp file",
+            "grammar": "${workspaceFolder}/src/np222kk/dv507/a2/language/OFPLanguage.g4",
+            "input": "${file}",
+            "visualParseTree": true
+        }
+    ]
+}

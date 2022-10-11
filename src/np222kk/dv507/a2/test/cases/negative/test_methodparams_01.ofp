@@ -1,0 +1,7 @@
+void main() {
+    test(1, 'x');
+}
+
+int test(int a, string b) {
+    return 1;
+}

@@ -1,0 +1,12 @@
+void main() {
+    int i = 1;
+    if (i == 1) {
+        char i = 'c';
+        if (i == 'c') {
+            float i = 1.0;
+            if (i == 1.0) {
+                
+            }
+        }
+    }
+}

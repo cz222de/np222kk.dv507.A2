@@ -1,0 +1,7 @@
+# test_neg_arrays
+
+void main() {
+    string[] a;
+    bool[] b;
+    int[][] c;
+}
